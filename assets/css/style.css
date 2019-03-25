@@ -216,3 +216,105 @@ body {
     border: 0 none;
   }
   
+
+@media screen and (max-width: 980px) {
+  body{
+    width: 100%;
+  }  
+
+  #logo{
+    width: 100%;
+  }
+
+  .nav{
+    width: 93%;
+    float: none;
+  }
+}
+
+@media screen and (max-width: 768px) { 
+ 
+  .main-section {
+    float: left;
+    width: 90%;
+    max-width: 960px;
+  }
+
+  nav {
+    width: 93%;
+}
+
+nav h1 {
+    width: 100%;
+    float: none;
+    padding: 21.5px 0;
+    text-align: center;
+}
+
+nav ul {
+    width: 100%;
+    float: none;
+    list-style: none;
+    text-align: center;
+    padding-top: 21px;
+}
+
+nav li {
+    float: none;
+    display: inline;
+    margin: 0 15px;
+}
+
+}
+   
+
+@media screen and (max-width: 640px) {
+
+  #logo{
+    width: 100%;
+  }
+  nav {
+    width: 50%;
+    align-content: center;
+}
+
+nav h1 {
+    width: 100%;
+    float: none;
+    padding: 21.5px 0;
+    text-align: center;
+}
+
+nav ul {
+    width: 100%;
+    float: none;
+    list-style: none;
+    text-align: center;
+    padding-top: 21px;
+}
+
+nav li {
+    float: none;
+    display: inline;
+    margin: 0 15px;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.work {
+  margin: 0 0 30px 0;
+}
+
+.work img {
+  width: 300px;
+}
+
+h3 {
+  padding: 18px 0;
+  width: 100%;
+  bottom: 12px;
+  font-size: 19px;
+}
+}
